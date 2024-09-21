@@ -21,6 +21,7 @@ void main() {
   print(calc_1.multiplication(n1, n2));
   print(calc_1.division(n1, n2));
 
+  // ignore: unused_local_variable
   Mathematics calc_3 = new Mathematics.namedConstructor();
 
   Calculator calc_2 = new Calculator(10, 15);
